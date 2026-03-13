@@ -1,0 +1,88 @@
+.records-page {
+  max-width: 1100px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+.records-table thead th {
+  position: sticky;
+  top: 0;
+  background: #1f2937;
+  z-index: 10;
+}
+
+
+
+.table-wrapper {
+  background: #ffffff;
+  border-radius: 12px;
+  overflow-x: auto;
+  overflow-y: auto;
+  max-height: 70vh;
+  box-shadow: 0 10px 25px rgba(0, 0, 0, 0.08);
+
+}
+
+
+.records-table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+/* TABLE HEADER */
+.records-table thead {
+  background: #1f2937;
+  color: #ffffff;
+}
+
+.records-table th,
+.records-table td {
+  padding: 14px 16px;
+  text-align: left;
+  white-space: nowrap;
+}
+
+/* TABLE BODY */
+.records-table tbody tr:nth-child(even) {
+  background: #f9fafb;
+}
+
+.records-table tbody tr:hover {
+  background: #eef2ff;
+}
+
+/* BADGES */
+.badge {
+  padding: 6px 14px;
+  border-radius: 20px;
+  font-size: 14px;
+  font-weight: 600;
+  display: inline-block;
+  text-transform: capitalize;
+}
+
+.badge.criminal {
+  background-color: #fde2e2;
+  color: #b91c1c;
+}
+
+.badge.missing {
+  background-color: #fff3e0;
+  color: #d97706;
+}
+
+/* STATUS & EMPTY */
+.status-text {
+  text-align: center;
+  font-size: 16px;
+  margin-top: 40px;
+}
+
+.empty-box {
+  background: #ffffff;
+  padding: 40px;
+  text-align: center;
+  border-radius: 12px;
+  box-shadow: 0 6px 16px rgba(0, 0, 0, 0.08);
+  font-size: 18px;
+}
